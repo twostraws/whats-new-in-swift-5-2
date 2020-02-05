@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='rendered'>
+    <pages>
+        <page name='Introduction'/>
+        <page name='Key Path Expressions as Functions'/>
+        <page name='Callable values of user-defined nominal types'/>
+        <page name='Subscripts can now declare default arguments'/>
+        <page name='New and improved diagnostics'/>
+    </pages>
+</playground>
