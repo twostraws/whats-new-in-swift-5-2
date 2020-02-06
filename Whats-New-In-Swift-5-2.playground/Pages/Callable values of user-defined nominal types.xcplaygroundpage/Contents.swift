@@ -46,7 +46,7 @@ struct StepCounter {
 var steps = StepCounter()
 let targetReached = steps(count: 10)
 /*:
-For more advanced usage, `callAsFunction()` supports both `throws` and `regrows`, and you can even define multiple `callAsFunction()` methods on a single type – Swift will choose the correct one depending on the call site, just like regular overloading.
+For more advanced usage, `callAsFunction()` supports both `throws` and `rethrows`, and you can even define multiple `callAsFunction()` methods on a single type – Swift will choose the correct one depending on the call site, just like regular overloading.
 
 &nbsp;
 
