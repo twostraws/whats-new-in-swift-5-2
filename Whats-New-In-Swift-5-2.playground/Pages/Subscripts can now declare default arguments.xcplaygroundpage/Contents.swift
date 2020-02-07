@@ -11,7 +11,7 @@ When adding custom subscripts to a type, you can now use default arguments for a
 struct PoliceForce {
     var officers: [String]
         
-    subscript(index: Int, default default: String = "Missing") -> String {
+    subscript(index: Int, default default: String = "Unknown") -> String {
         if index >= 0 && index < officers.count {
             return officers[index]
         } else {
