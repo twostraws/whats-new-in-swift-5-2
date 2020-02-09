@@ -6,7 +6,7 @@
 [< Previous](@previous)           [Home](Introduction)           [Next >](@next)
 # Callable values of user-defined nominal types
 
-[SE-0253](https://github.com/apple/swift-evolution/blob/master/proposals/0253-callable.md) introduced introduces statically callable values to Swift, which is a fancy way of saying that you can now call a value directly if its type implements a method named `callAsFunction()`. You don’t need to conform to any special protocol to make this behavior work; you just need to add that method to your type.
+[SE-0253](https://github.com/apple/swift-evolution/blob/master/proposals/0253-callable.md) introduces statically callable values to Swift, which is a fancy way of saying that you can now call a value directly if its type implements a method named `callAsFunction()`. You don’t need to conform to any special protocol to make this behavior work; you just need to add that method to your type.
 
 For example, we could create a `Dice` struct that has properties for `lowerBound` and `upperBound`, then add `callAsFunction` so that every time you call a dice value you get a random roll:
 */
