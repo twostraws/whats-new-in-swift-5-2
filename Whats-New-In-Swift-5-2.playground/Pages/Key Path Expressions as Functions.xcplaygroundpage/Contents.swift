@@ -42,8 +42,7 @@ This same approach works elsewhere – anywhere where previously you would have 
 */
 let voters = users.filter(\.canVote)
 /*:
-And this will return all users who have a best friend:
-    
+And this will return the best friends for all users who have one:
 */
 let bestFriends = users.compactMap(\.bestFriend)
 /*:

@@ -10,6 +10,8 @@ Swift 5.2 introduced a new diagnostic architecture that aims to improves the qua
 
 For an example, consider code like this:
 */
+import SwiftUI
+
 struct ContentView: View {
     @State private var name = 0
         
