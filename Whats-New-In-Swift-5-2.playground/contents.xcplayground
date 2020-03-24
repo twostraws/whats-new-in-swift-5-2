@@ -5,6 +5,7 @@
         <page name='Key Path Expressions as Functions'/>
         <page name='Callable values of user-defined nominal types'/>
         <page name='Subscripts can now declare default arguments'/>
+        <page name='Lazy filtering order is now reversed'/>
         <page name='New and improved diagnostics'/>
     </pages>
 </playground>

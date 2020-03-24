@@ -10,6 +10,7 @@
  * [Key Path Expressions as Functions](Key%20Path%20Expressions%20as%20Functions)
  * [Callable values of user-defined nominal types](Callable%20values%20of%20user-defined%20nominal%20types)
  * [Subscripts can now declare default arguments](Subscripts%20can%20now%20declare%20default%20arguments)
+ * [Lazy filtering order is now reversed](Lazy%20filtering%20order%20is%20now%20reversed)
  * [New and improved diagnostics](New%20and%20improved%20diagnostics)
 
 &nbsp;
